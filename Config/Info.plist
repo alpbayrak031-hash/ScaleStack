@@ -2,42 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UTExportedTypeDeclarations</key>
-	<array>
-		<dict>
-			<key>UTTypeIdentifier</key>
-			<string>com.pixelvault.pixv</string>
-			<key>UTTypeDescription</key>
-			<string>PixelVault Image</string>
-			<key>UTTypeConformsTo</key>
-			<array>
-				<string>public.data</string>
-				<string>public.content</string>
-			</array>
-			<key>UTTypeTagSpecification</key>
-			<dict>
-				<key>public.filename-extension</key>
-				<array>
-					<string>pixv</string>
-				</array>
-				<key>public.mime-type</key>
-				<array>
-					<string>image/x-pixv</string>
-				</array>
-			</dict>
-		</dict>
-	</array>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
 			<key>CFBundleTypeName</key>
-			<string>PixelVault Image</string>
+			<string>ScaleStack Image</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>LSHandlerRank</key>
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
+				<string>com.scalestack.ssm</string>
 				<string>com.pixelvault.pixv</string>
 			</array>
 		</dict>
@@ -52,6 +28,52 @@
 			<array>
 				<string>public.image</string>
 			</array>
+		</dict>
+	</array>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.content</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>ScaleStack Image</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.scalestack.ssm</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>ssm</string>
+				</array>
+				<key>public.mime-type</key>
+				<array>
+					<string>image/x-ssm</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.content</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>PixelVault Image</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.pixelvault.pixv</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>pixv</string>
+				</array>
+			</dict>
 		</dict>
 	</array>
 </dict>

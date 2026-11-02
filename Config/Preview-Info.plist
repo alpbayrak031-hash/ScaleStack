@@ -10,6 +10,7 @@
 			<true/>
 			<key>QLSupportedContentTypes</key>
 			<array>
+				<string>com.scalestack.ssm</string>
 				<string>com.pixelvault.pixv</string>
 			</array>
 			<key>QLSupportsSearchableItems</key>
